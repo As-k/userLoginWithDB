@@ -1,0 +1,71 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll"
+    android:background="#88d7d7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#112"
+        android:textSize="25sp"
+        android:text="Login Page"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Contact No."
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColorHint="#f0f"
+        android:textColor="#f0f"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColorHint="#f0f"
+        android:textColor="#f0f"
+        android:fontFamily="sans-serif"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#f0f"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="userLogin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Registration"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#f0f"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="registration"/>
+
+</LinearLayout>
